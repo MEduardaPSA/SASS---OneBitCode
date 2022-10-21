@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato | SASS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Seja bem-vindo(a) à nossa Página de Contato | SASS</h1>
+        <p class="paragraph">Peço, por gentileza, que coloque seus dados abaixo para estarmos entrando em contato o mais rápido possível.</p>
+        <div class="form">
+            <form class="formulario">
+                <label for="name" class="labels-form">Digite seu nome: </label>
+                <input type="text" placeholder="Nome Sobrenome" class="inputs-form"> <br> <br>
+
+                <label for="email" class="labels-form">Digite seu e-mail: </label>
+                <input type="email" name="email" id="email" placeholder="nome@gmail.com..." class="inputs-form"> <br> <br>
+                
+                <label for="tel" class="labels-form">Digite seu número de telefone: </label>
+                <input type="tel" name="tel" id="tel" placeholder="(xx) xxxxx-xxxx" class="inputs-form"> <br> <br>
+
+                <textarea name="content" id="content" cols="30" rows="10" placeholder="Digite aqui o assunto que deverá ser tratado..."></textarea> <br> <br>
+
+                <label for="range" class="labels-form">Qual a urgência do assunto? </label>
+                0<input type="range" name="range" id="range">10 <br> <br>
+
+                <div class="btn">
+                    <input type="submit" value="Enviar" class="btn-form">
+                    <input type="reset" value="Deletar" class="btn-form">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
